@@ -2,103 +2,64 @@
 <!-- -->
 <html>
 <!-- La cabeza de la pagina web. -->
-	<head>
-		<!-- El titulo que aparece en la pestana de la pagina Web. -->
-		<title>Republica Dominicana</title>
-
-		<!-- Agregando un poco de formato CSS estilo interno. -->
-		<style>
-			body 	{background-color: powderblue;
-					padding-top: 0.5em;
-					padding-left: 5em;}
-			h1   	{color: blue;}
-			h2 	 	{color: red;}
-
-			p    	{color: blue;}
-			font 	{font-family: verdana;}
-			footer 	{padding-top: 2em;}
-		</style>
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- El titulo que aparece en la pestana de la pagina Web. -->
+	<title>Republica Dominicana - Home</title>
+	<!-- Llamando a el css -->
+	<link rel="stylesheet" href="rd.css" />
+	<!-- importano el tipo de letra poppins desde google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
 
 <!-- El Cuerpo de la pagina web. -->
-	<body>
-		<!-- El titulo principal del cuerpo de la pagina web. -->
+<body>
+	<!-- barra de navegacion -->
+		<nav>
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="bandera.html">Bandera</a></li>
+			  <li><a href="escudo.html">Escudo</a></li>
+			  <li><a href="himno.html">Himno</a></li>
+			</ul>
+		</nav>
+	
+	<!-- Parte principal de la pagina -->
+	<main>
 		<h1>Republica Dominicana</h1>
 		
-		<!-- ************************ Bandera ************************ -->
-		<h2>La bandera de la Republica Dominicana</h2>
-
+		<h2>La Bandera Nacional</h2>
 		<!-- insertando la imagen de la Bandera de RD. -->
-		<img src="rdbandera.png" alt="Bandera Nacional de La Republica Dominicana" style="width:400px;">
-		
-		<!-- Un paragrafo indicando sobre la caracteristicas de la bandera, inmediatamente seguido por una lista sin orden. -->
-		<p><b>Caracteristicas de la Bandera Nacional de La Republica Dominicana</b></p>
-		<ul>
-			<li>Tiene un fortmato rectangular, predominan una cruz en el centro formando una cruz de lado a lado.</li>
-			<li> El Escudo Nacional es posicionado en el centro de la bandera haciendon interseccion entre el punto centro.</li>
-			<li>En los extremos se encuentran cuatro rectangulos con colores alternados rojo y azul.</li>
-		</ul>
+		<a href="bandera.html">
+			<img src="imagenes/rdbandera.png" alt="Bandera Nacional de La Republica Dominicana"
+			href="bandera.html">
+		</a>	
 
-		<!-- Un paragrafo indicando sobre los colores, inmediatamente seguido por una lista sin orden. -->
-		<p><b>Colores</b></p>
-		<ul>
-			<li>Rojo Bermellon.</li>
-			<li>Azul Ultramar.</li>
-			<li>Blanco.</li>
-		</ul>
-
-		<!-- ************************ Espacio entre Bandera y Escudo ************************ -->
-		<br>
-
-		<!-- ************************ Escudo ************************ -->
-		<!-- Un paragrafo para introducir el escudo nacional. -->
-		<h2>Escudo Nacional de La Republica Dominicana</h2>
-
+		<h2>El Escudo Nacional</h2>
 		<!-- insertando la imagen de el Escudo de RD. -->
-		<img src="rdescudo.png" alt="Escudo Nacional de La Republica Dominicana" style="width:400px;">
+		<a href="escudo.html">
+			<img src="imagenes/rdescudo.png" alt="Escudo Nacional de La Republica Dominicana">
+		</a>
 
-		<!-- Un paragrafo indicando las caracteristicas de el escudo, inmediatamente seguido por una lista sin orden. -->
-		<p><b>Caracteristicas de el Escudo Nacional de La Republica Dominicana</b></p>
-		<ul>
-			<li>Caracteristica 1.</li>
-			<li>Caracteristica 2.</li>
-			<li>Caracteristica 3.</li>
-		</ul>
-
-		<!-- Informacion adicional de el escudo. -->
-		<p><b>Colores</b></p>
-		<ul>
-			<li>Informacion adicional 1.</li>
-			<li>Informacion adicional 2.</li>
-			<li>Informacion adicional 3.</li>
-		</ul>
-
-		<!-- ************************ Espacio entre Escudo e Himno ************************ -->
-		<br>
-
-		<!-- ************************ Himno Nacional ************************ -->
-		<!-- Un paragrafo para introducir el himno nacional. -->
-		<h2>Himno Nacional de La Republica Dominicana</h2>
-
-		<!-- Introduciendo el player del Himno Nacional -->
-		<audio controls>
-			<source src="rdhimno.mp3" type="audio/mpeg">
-		</audio>
-		<p style="font-size:12px;">"Presiona reproducir para escuchar el Himno Nacional de La Republica Dominicana"</p>
-
-		<!-- Letra del Himno Nacional -->
-		<p><b>Letra del Himno Nacional</b></p>
-		<p> Letra. </p>
-
-	</body>
+		<h2>El Himno Nacional</h2>
+		<a href="himno.html">
+			<img src="imagenes/himno.jpg" alt="Escudo Nacional de La Republica Dominicana">
+		</a>
+	</main>
+</body>
 
 <!-- El pie de la pagina Web.-->
-	<footer>
-		<h4>Creado por: "Ingresa Nombre"</h4>
-		<p>Fuentes</p>
-		<ul>
-			<li>https://www.presidencia.gob.do/acerca-de-rd/simbolos-patrios</li>
-			<li>https://www.w3schools.com/html/default.asp</li>
-		</ul>
-	</footer>
+<footer>
+	<p>Creado por: <strong>Kiara Nova</strong>
+		<br>Fuentes:</p>
+	<ul>
+		<li>https://www.presidencia.gob.do/acerca-de-rd/simbolos-patrios</li>
+		<li>https://www.w3schools.com/html/default.asp</li>
+		<li>https://www.w3schools.com/css/default.asp</li>
+		<li>https://fonts.google.com/specimen/Poppins</li>
+	</ul>
+</footer>
 </html>
